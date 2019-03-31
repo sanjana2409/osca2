@@ -9,6 +9,14 @@ nt main()
 	{
     	need[i]=max[i]-allocation[i];
 	}}
+	if(flag==0 && need<=available)
+        	{
+        		available=available+allocation[j];
+        		flag[j]=1;
+        		printf("\nProcess %d has been allocated resources",j);
+        		sequence[c]=j;
+        		c++;
+        	}
 	if(flag==0)
     	{
     		printf("\t\tSYSTEM IS IN UNSAFE STATE\n");
