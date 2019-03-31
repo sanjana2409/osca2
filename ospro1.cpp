@@ -9,3 +9,14 @@ nt main()
 	{
     	need[i]=max[i]-allocation[i];
 	}}
+	if(flag==0)
+    	{
+    		printf("\t\tSYSTEM IS IN UNSAFE STATE\n");
+   			x=1;
+    		break;
+    	}
+   }
+	if(x==0)
+	{	
+		printf("\t\tSYSTEM IS IN SAFE STATE\n");
+}
