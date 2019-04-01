@@ -30,28 +30,33 @@ int main()
         		sequence[c]=j;
         		c++;
         	}
-  
+    	}
+	}
 	for(i=0;i<p;i++)
 	{
     	if(flag[i]==0)
     	{
-    		printf("\n\t...\n");
+    		printf("\n\t------\n");
     		printf("\t\tSYSTEM IS IN UNSAFE STATE\n");
-    		
+    		printf("\t------\n");
    			x=1;
     		break;
     	}
-   
+   }
 	if(x==0)
 	{
-		
+		printf("\n\------\n");
 		printf("\t\tSYSTEM IS IN SAFE STATE\n");
-		
+		printf("\t------\n");
 		printf("Safe sequence is : ");
 		for(i=0;i<p;i++)
 		{
     		printf("P[%d]  ",sequence[i]);
 		}
+	}	
+}
+
+
 		
 
 
