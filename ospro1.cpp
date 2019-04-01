@@ -25,6 +25,13 @@ nt main()
     	}
    }
 	if(x==0)
-	{	
-		printf("\t\tSYSTEM IS IN SAFE STATE\n");
-}
+	{
+		printf("\n\t.....\n");
+		printf("\t\SAFE STATE\n");
+		printf("\t....\n");
+		printf("Safe sequence is: ");
+		for(i=0;i<p;i++)
+		{
+    		printf("P[%d]  ",sequence[i]);
+		}
+	}	
